@@ -37,7 +37,7 @@ export default function GlobalOffices() {
           variants={fadeUp}
           className="text-[#101010] text-base leading-relaxed"
         >
-          GAB World combines global experience with local insight, enabling us
+          GAP-World combines global experience with local insight, enabling us
           to deliver projects across regions efficiently, professionally, and
           without disruption
         </motion.p>

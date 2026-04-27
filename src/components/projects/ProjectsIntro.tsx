@@ -24,14 +24,14 @@ export default function ProjectsIntro() {
           variants={fadeUp}
           className="text-xs font-semibold tracking-widest text-[#101010] uppercase mb-4"
         >
-          Global Offices
+          Portfolio
         </motion.p>
         <motion.h2
           variants={fadeUp}
           id="projects-intro-heading"
           className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight mb-6"
         >
-          Where We Operate
+          Our Works
         </motion.h2>
         <motion.p
           variants={fadeUp}

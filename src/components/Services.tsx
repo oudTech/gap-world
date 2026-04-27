@@ -7,7 +7,7 @@ import { staggerContainer, fadeUp } from "@/lib/animations";
 const services = [
   {
     title: "Architectural Design",
-    description: "Nothing Makes Us Happier Than Creating For You, Masterpieces",
+    description: "Smart, timeless designs tailored to your vision and budget.",
     icon: (
       <svg
         width="31"
@@ -30,7 +30,7 @@ const services = [
   {
     title: "3D Visualization",
     description:
-      "Trying To Sell A Project? Let Our Dedicated Team Of 3d Part Artist Bring Your Vision To Life.",
+      "See it clearly, refine it early, build with confidence. Our dedicated team of 3D artists bring your vision to life.",
     icon: (
       <svg
         width="31"
@@ -50,9 +50,9 @@ const services = [
     ),
   },
   {
-    title: "Project Supervision",
+    title: "Materials Supply",
     description:
-      "We Transform Hallow Spaces, We Give Them Personality, Story And Life.",
+      "Reliable access to high-quality building materials, carefully sourced to ensure durability, cost-efficiency, And Safety.",
     icon: (
       <svg
         width="31"
@@ -69,9 +69,9 @@ const services = [
     ),
   },
   {
-    title: "Construction",
+    title: "Construction & Supervision",
     description:
-      "Masterializing Archetetuaral Designs, Making Them Tangible With Accuracy.",
+      "From groundwork to finishing, we Expertly oversee And Manage your project to the highest standards.",
     icon: (
       <svg
         width="31"

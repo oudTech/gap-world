@@ -43,14 +43,14 @@ export default function UseCases() {
               variants={fadeUp}
               className="text-xs font-semibold tracking-widest text-[#101010] uppercase mb-4"
             >
-              Use Cases
+              Versatile Expertise
             </motion.p>
             <motion.h2
               variants={fadeUp}
               id="use-cases-heading"
               className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight"
             >
-              Solving Sector Challenges At Scale.
+              Solving Structure Challenges At Scale.
             </motion.h2>
           </div>
 
@@ -60,7 +60,7 @@ export default function UseCases() {
             className="lg:col-start-1 lg:row-start-2 relative overflow-hidden aspect-4/3 shadow-lg"
           >
             <Image
-              src="/images/use-case.png"
+              src="/images/use-case.jpg"
               alt="Modern hospital or clinic building demonstrating modular construction at scale"
               fill
               className="object-cover"
@@ -75,10 +75,9 @@ export default function UseCases() {
             className="lg:col-start-2 lg:row-start-1 lg:row-span-2 pt-0 lg:pt-16"
           >
             <p className="text-[#101010] text-base leading-tight mb-8">
-              GAB World provides modular pods and structures built for speed,
-              quality, and scalability. Our plug-and-play approach enables
-              high-growth sectors to deploy tailored, durable, and fully
-              compliant solutions with confidence.
+              GAP-World is versatile across all sectors, sizes — guiding,
+              designing, and erecting world-standard structures tailored to your
+              idea.
             </p>
 
             {/* Sector list */}
@@ -97,10 +96,7 @@ export default function UseCases() {
                   onMouseLeave={() => setHovered(null)}
                   className="group"
                 >
-                  <a
-                    href={sector.href}
-                    className="flex items-center justify-between py-4 gap-3 transition-colors duration-200"
-                  >
+                  <div className="flex items-center justify-between py-4 gap-3 transition-colors duration-200">
                     <span
                       className={`text-base transition-colors duration-200 ${
                         hovered === i ? "text-orange-500" : "text-gray-800"
@@ -113,11 +109,11 @@ export default function UseCases() {
                       transition={{ duration: 0.2 }}
                       className="flex items-center gap-2"
                     >
-                      {i === 0 && (
+                      {/* {i === 0 && (
                         <span className="text-sm font-medium text-[#101010]">
                           Know More
                         </span>
-                      )}
+                      )} */}
                       {/* 34×34 square border box */}
                       <div
                         className="flex items-center justify-center shrink-0"
@@ -133,7 +129,7 @@ export default function UseCases() {
                         />
                       </div>
                     </motion.div>
-                  </a>
+                  </div>
                 </motion.li>
               ))}
             </ul>

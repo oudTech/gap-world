@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
-import { fadeUp, slideLeft, slideRight, staggerContainer } from "@/lib/animations";
+import { fadeUp, slideRight, staggerContainer } from "@/lib/animations";
 
 export default function AboutIntro() {
   const ref = useRef(null);
@@ -40,7 +40,7 @@ export default function AboutIntro() {
               variants={fadeUp}
               className="text-[#101010] text-base leading-relaxed"
             >
-              GAB World Nigeria Limited is a full-service architecture and
+              GAP-World Nigeria Limited is a full-service architecture and
               construction firm built on integrity, reliability, and trust. We
               deliver realistic, budget-conscious solutions without
               overpromising. Every project is treated uniquely, with
@@ -62,7 +62,7 @@ export default function AboutIntro() {
             }}
           >
             <Image
-              src="/images/innovation-img.png"
+              src="/images/innovation-img.jpg"
               alt="Modular building module being lifted by a crane on a construction site"
               fill
               className="object-cover"

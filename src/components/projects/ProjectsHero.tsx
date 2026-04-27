@@ -27,14 +27,14 @@ export default function ProjectsHero() {
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
       >
         <Image
-          src="/images/contact-hero.png"
+          src="/images/porfolio-hero.jpg"
           alt="Architectural project — Azariah Arch portfolio"
           fill
           priority
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-linear-to-b from-black/25 via-black/20 to-black/50" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/90 via-black/50 to-black/50" />
       </motion.div>
 
       <motion.div

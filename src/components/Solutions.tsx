@@ -30,7 +30,7 @@ export default function Solutions() {
               variants={fadeUp}
               className="text-xs font-semibold tracking-widest text-[#101010] uppercase mb-4"
             >
-              Solutions
+              Meet the CEO
             </motion.p>
 
             <motion.h2
@@ -38,18 +38,31 @@ export default function Solutions() {
               id="solutions-heading"
               className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight mb-6"
             >
-              From Bathroom Pods
-              <br /> To Kitchen Units, All Factory-Built.
+              Take Our Words For It.
             </motion.h2>
 
             <motion.p
               variants={fadeUp}
               className="text-[#101010] text-base leading-relaxed mb-8 max-w-md"
             >
-              At GAB World Nigeria Limited, every project is handled with
-              precision and integrity—delivering durable, functional, and
-              well-crafted spaces. Our approach ensures each solution is
-              tailored, achievable, and built to meet the highest standards.
+              &quot;GAP-World stands on integrity and realism. We handle
+              construction projects of all kinds and sizes, working with your
+              budget and treating every client with equal importance—no
+              comparisons, no compromises.
+            </motion.p>
+            <motion.p
+              variants={fadeUp}
+              className="text-[#101010] text-base leading-relaxed mb-8 max-w-md"
+            >
+              Our goal is simple: to deliver world-class standard structures
+              that meet your expectations.
+            </motion.p>
+            <motion.p
+              variants={fadeUp}
+              className="text-[#101010] text-base leading-relaxed mb-8 max-w-md"
+            >
+              Because at the end of the day, what you want is exactly what you
+              get.&quot;
             </motion.p>
 
             <motion.div
@@ -74,8 +87,8 @@ export default function Solutions() {
             className="relative overflow-hidden aspect-625/678 shadow-xl order-first lg:order-last"
           >
             <Image
-              src="/images/bathroom-pod.png"
-              alt="Factory-built bathroom pod with modern fixtures and integrated services"
+              src="/images/GAP-World-CEO.png"
+              alt="Mr. Godwins Azariah (CEO, GAP-World Nig. Ltd)"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -83,7 +96,7 @@ export default function Solutions() {
             {/* Caption overlay */}
             <div className="absolute bottom-0 inset-x-0 bg-linear-to-t from-black/70 to-transparent p-5">
               <p className="text-white text-sm font-medium">
-                Utility Pods — Bathroom Pods
+                Mr. Godwins Azariah (CEO, GAP-World Nig. Ltd)
               </p>
             </div>
 

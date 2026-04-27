@@ -62,14 +62,14 @@ const contactDetails = [
   {
     icon: <PhoneIcon />,
     label: "Call",
-    value: " +234 805 295 2194",
-    href: "tel:+2348052952194",
+    value: " +234 806 344 3970, +234 708 266 6407",
+    href: "tel:+2348063443970",
   },
   {
     icon: <MailIcon />,
     label: "Send a mail",
-    value: "info@oudtechnologies.com",
-    href: "mailto:info@oudtechnologies.com",
+    value: "godwinsazariah2017@gmail.com",
+    href: "mailto:godwinsazariah2017@gmail.com",
   },
   {
     icon: <LocationIcon />,
@@ -160,7 +160,7 @@ export default function ContactForm() {
             className="text-[#101010] text-base leading-relaxed self-end"
           >
             We&apos;re open to every opportunity—whether it&apos;s a new
-            project, partnership, or collaboration with GAB World Nigeria
+            project, partnership, or collaboration with GAP-World Nigeria
             Limited.
           </motion.p>
         </motion.div>

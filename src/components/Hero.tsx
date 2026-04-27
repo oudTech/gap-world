@@ -30,7 +30,7 @@ export default function Hero() {
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
       >
         <Image
-          src="/images/hero-img.png"
+          src="/images/hero-img.jpg"
           alt="Modern architectural house with a yellow car in the garage surrounded by autumn trees"
           fill
           priority
@@ -38,7 +38,7 @@ export default function Hero() {
           sizes="100vw"
         />
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/20 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/50 to-black/50" />
       </motion.div>
 
       {/* Content */}
@@ -53,10 +53,10 @@ export default function Hero() {
           variants={fadeUp}
           className="text-4xl sm:text-5xl md:text-6xl font-medium text-white leading-[1.1] tracking-tight mb-8"
         >
-          Azariah Arch—
+          GAP-World Nig. Ltd.
           <br />
-          Rethinking construction
-          <br className="hidden sm:block" /> for a changing world
+          &quot;Rethinking construction
+          <br className="hidden sm:block" /> for a changing world&quot;
         </motion.h1>
 
         <motion.div
@@ -68,13 +68,10 @@ export default function Hero() {
               href="/projects"
               className="w-auto inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-medium px-6 py-2.5 md:px-8 md:py-3.5 rounded-full text-[10px] md:text-sm transition-colors duration-200 shadow-lg shadow-orange-500/30"
             >
-              Explore our portfolio
+              Explore our solution
             </Link>
           </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-          >
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
             <Link
               href="/contact"
               className="w-auto inline-flex items-center justify-center bg-white/15 backdrop-blur-sm border border-white/30 text-white font-medium px-6 py-2.5 md:px-8 md:py-3.5 rounded-full text-[10px] md:text-sm transition-all duration-200 hover:bg-white/25"

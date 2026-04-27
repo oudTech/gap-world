@@ -6,28 +6,28 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 
 const faqs = [
   {
-    question:
-      "What is modular construction, and how is it different from traditional construction?",
+    question: "What does GAP-World do?",
     answer:
       "Modular construction involves building sections (modules) off-site in a controlled factory environment, then assembling them on-site. This approach reduces construction time by up to 50%, minimizes on-site waste, ensures higher quality control, and dramatically reduces weather-related delays compared to traditional methods.",
   },
   {
-    question: "Why use Azariah-Arch?",
+    question:
+      "Why work with GAP-World, and how is it different from other architectural firms?",
     answer:
-      "Azariah-Arch combines cutting-edge design with precision engineering. Our factory-built approach guarantees consistent quality, faster delivery, and cost predictability—without compromising on aesthetics or functionality.",
+      "GAP-World combines cutting-edge design with precision engineering. Our factory-built approach guarantees consistent quality, faster delivery, and cost predictability—without compromising on aesthetics or functionality.",
   },
   {
-    question: "What types of projects can Azariah-Arch handle?",
+    question: "What types of projects can GAP-World handle?",
     answer:
       "We handle a wide range of projects including bathroom pods, kitchen units, hospital modules, educational facilities, residential apartments, co-living spaces, retail units, and corporate office fit-outs. If it can be built, we can modularize it.",
   },
   {
-    question: "How long does a typical modular project take?",
+    question: "How long does a typical building/construction project take?",
     answer:
       "Project timelines vary based on complexity and scale, but modular construction is typically 30–50% faster than traditional builds. A standard bathroom pod can be factory-completed in days, while large multi-module projects are typically delivered within weeks.",
   },
   {
-    question: "Can Azariah-Arch support projects outside India?",
+    question: "Can GAP-World handle projects outside Nigeria?",
     answer:
       "Yes. While our head office is based in Nigeria, we have the capacity and logistics network to support projects across Africa, the Middle East, and beyond. Contact us to discuss your specific requirements.",
   },
@@ -65,7 +65,7 @@ export default function FAQ() {
             id="faq-heading"
             className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight"
           >
-            Everything You Want To Know About Building Smart
+            Everything You Want To Know About GAP-World Nig. Ltd.
           </motion.h2>
         </motion.div>
 

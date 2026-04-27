@@ -8,14 +8,22 @@ import ImageBanner from "@/components/about/ImageBanner";
 import CoreValues from "@/components/about/CoreValues";
 
 export const metadata: Metadata = {
-  title: "About Us | Azariah Arch — Architecture & Construction",
+  title:
+    "About Us | GAP-World — Architecture & Construction — Architecture & Construction",
   description:
-    "Learn about Azariah Arch — our mission, vision, and core values. We deliver exceptional architecture and construction projects built on integrity, quality, and innovation.",
+    "Learn about GAP-World — Architecture & Construction — our mission, vision, and core values. We deliver exceptional architecture and construction projects built on integrity, quality, and innovation.",
   openGraph: {
-    title: "About Us | Azariah Arch",
+    title: "About Us | GAP-World — Architecture & Construction",
     description:
       "We combine honesty, precision, and experience to create spaces that truly work for you.",
-    images: [{ url: "/images/about-hero.png", width: 1200, height: 630, alt: "Azariah Arch About Us" }],
+    images: [
+      {
+        url: "/images/about-hero.png",
+        width: 1200,
+        height: 630,
+        alt: "GAP-World — Architecture & Construction About Us",
+      },
+    ],
   },
 };
 

@@ -6,14 +6,21 @@ import GlobalOffices from "@/components/contact/GlobalOffices";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Azariah Arch — Architecture & Construction",
+  title: "Contact Us | GAP-World — Architecture & Construction",
   description:
-    "Get in touch with Azariah Arch. We're open to every opportunity — new projects, partnerships, or collaborations.",
+    "Get in touch with GAP-World. We're open to every opportunity — new projects, partnerships, or collaborations.",
   openGraph: {
-    title: "Contact Us | Azariah Arch",
+    title: "Contact Us | GAP-World",
     description:
       "We combine honesty, precision, and experience to create spaces that truly work for you.",
-    images: [{ url: "/images/contact-hero.png", width: 1200, height: 630, alt: "Azariah Arch Contact Us" }],
+    images: [
+      {
+        url: "/images/contact-hero.png",
+        width: 1200,
+        height: 630,
+        alt: "GAP-World Contact Us",
+      },
+    ],
   },
 };
 

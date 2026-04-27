@@ -27,14 +27,14 @@ export default function ContactHero() {
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
       >
         <Image
-          src="/images/contact-hero.png"
+          src="/images/carousel-1.jpg"
           alt="Modern residential building exterior — Azariah Arch Contact Us"
           fill
           priority
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-linear-to-b from-black/25 via-black/20 to-black/50" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/90 via-black/50 to-black/50" />
       </motion.div>
 
       <motion.div
@@ -54,8 +54,8 @@ export default function ContactHero() {
           variants={fadeUp}
           className="text-white/80 text-base md:text-lg max-w-md mx-auto leading-relaxed"
         >
-          We combine honesty, precision, and experience to create spaces that
-          truly work for you.
+          We&apos;re open to every opportunity—whether it&apos;s a new project,
+          partnership, or collaboration
         </motion.p>
       </motion.div>
 

@@ -38,12 +38,12 @@ const items = [
   {
     icon: <MissionIcon />,
     title: "Our Mission",
-    body: "Our mission is to consistently deliver exceptional architecture and construction projects by upholding integrity, focusing on achievable solutions, and ensuring every structure meets the highest standards, creating spaces that inspire confidence, comfort, and long-term value for our clients.",
+    body: "To provide professional architectural design and construction services through efficient project execution, adherence to regulatory standards, and commitment to quality, safety, and client satisfaction.",
   },
   {
     icon: <VisionIcon />,
     title: "Our Vision",
-    body: "Our vision is to build a reputation for excellence by creating durable, beautiful, and functional spaces, treating every project uniquely, working transparently within budgets, and consistently delivering results that reflect integrity, quality, and long-term value.",
+    body: "To establish GAP-WORLD NIG LTD as a reputable and reliable firm in Nigerian, known for delivering projects that meet international standards and contribute to national development.",
   },
 ];
 

@@ -8,24 +8,23 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 
 const cards = [
   {
-    image: "/images/carousel-1.png",
+    image: "/images/carousel-2.jpg",
+    caption: "Structural Framing Delivered for Rapid Exterior Assembly",
+  },
+  {
+    image: "/images/carousel-1.jpg",
     caption:
-      "Factory Finished Bathroom Pods With Integrated Services And Interiors",
+      "Modular Architectural Envelopes with High-Performance External Finishes",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1400&q=80",
-    caption: "Engineered For Repeatability, Speed, And Scalability",
+    image: "/images/carousel-2.jpg",
+    caption:
+      "Engineered Facades Designed for Structural Integrity and Scalability",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=80",
-    caption: "Precision Manufacturing For Every Project Scale",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80",
-    caption: "Built Off-Site, Delivered Ready To Install",
+    image: "/images/carousel-4.jpg",
+    caption:
+      "Precision Exterior Detailing Tailored for Modern Urban Landscapes",
   },
 ];
 
@@ -54,14 +53,14 @@ export default function Technology() {
               variants={fadeUp}
               className="text-xs font-semibold tracking-widest text-[#101010] uppercase mb-4"
             >
-              Technology
+              Exceptional Structures
             </motion.p>
             <motion.h2
               variants={fadeUp}
               id="technology-heading"
               className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight"
             >
-              Precise Construction. Perfectly Scaled.
+              Designed With Precision. Built With Quality.
             </motion.h2>
           </div>
 
@@ -78,7 +77,7 @@ export default function Technology() {
                 href="/projects"
                 className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-7 py-3.5 rounded-full text-sm transition-colors duration-200"
               >
-                Explore our portfolio
+                Explore our works
               </Link>
             </motion.div>
           </motion.div>

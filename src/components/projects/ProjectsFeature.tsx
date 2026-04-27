@@ -28,16 +28,16 @@ export default function ProjectsFeature() {
               variants={fadeUp}
               className="text-xs font-semibold tracking-widest text-[#101010] uppercase mb-4"
             >
-              Technology
+              Exception Structures
             </motion.p>
             <motion.h2
               variants={fadeUp}
               id="projects-feature-heading"
               className="text-4xl md:text-5xl font-medium text-[#101010] leading-tight"
             >
-              Built With Precision.
+              Designed With Precision.
               <br />
-              Design To Scale.
+              Built With Quality.
             </motion.h2>
           </div>
 
@@ -47,12 +47,16 @@ export default function ProjectsFeature() {
               Our projects speak through quality, detail, and client-focused
               execution.
             </p>
-            <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="self-start">
+            <motion.div
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.97 }}
+              className="self-start"
+            >
               <Link
                 href="/projects"
                 className="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium px-7 py-3.5 rounded-full transition-colors duration-200"
               >
-                Explore our portfolio
+                Explore our solution
               </Link>
             </motion.div>
           </motion.div>

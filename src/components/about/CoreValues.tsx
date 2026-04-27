@@ -136,17 +136,17 @@ const values = [
   {
     icon: <IntegrityIcon />,
     title: "Integrity",
-    body: "We operate with honesty and transparency in every project, building trust with our clients through consistent delivery and ethical practices.",
+    body: "We conduct our business with honesty, transparency, and accountability, building trust with clients, partners, and stakeholders at all times.",
   },
   {
     icon: <QualityIcon />,
     title: "Quality Excellence",
-    body: "Every structure we create meets the highest standards of craftsmanship, ensuring durability, functionality, and aesthetic appeal that stands the test of time.",
+    body: "We are committed to delivering superior architectural designs and construction services that meet and exceed industry standards and client expectations.",
   },
   {
     icon: <InnovationIcon />,
     title: "Innovation",
-    body: "We embrace modern methods and creative thinking to solve complex architectural challenges, delivering solutions that are both forward-thinking and practical.",
+    body: "We embrace creativity and modern technologies to develop unique, functional, and sustainable design and construction solutions.",
   },
 ];
 
