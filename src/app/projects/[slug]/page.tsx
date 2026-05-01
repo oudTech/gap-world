@@ -19,11 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = getProject(slug);
   if (!project) return {};
   return {
-    title: `${project.title} | Azariah Arch`,
-    description: `Explore the ${project.title} project by Azariah Arch — architecture and construction built to last.`,
+    title: `${project.title} | GAP-World`,
+    description: `Explore the ${project.title} project by GAP-World — architecture and construction built to last.`,
     openGraph: {
-      title: `${project.title} | Azariah Arch`,
-      images: [{ url: project.hero, width: 1200, height: 630, alt: project.title }],
+      title: `${project.title} | GAP-World`,
+      images: [
+        { url: project.hero, width: 1200, height: 630, alt: project.title },
+      ],
     },
   };
 }

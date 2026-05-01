@@ -87,7 +87,7 @@ export default function Solutions() {
             className="relative overflow-hidden aspect-625/678 shadow-xl order-first lg:order-last"
           >
             <Image
-              src="/images/GAP-World-CEO.png"
+              src="/images/mrazariah.jpeg"
               alt="Mr. Godwins Azariah (CEO, GAP-World Nig. Ltd)"
               fill
               className="object-cover"
