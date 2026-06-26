@@ -73,6 +73,22 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "GAP-World",
+  url: "https://www.gap-worldnigltd.com",
+  logo: "https://www.gap-worldnigltd.com/images/logo.png",
+  image: "https://www.gap-worldnigltd.com/images/og-img.png",
+  description:
+    "GAP-World delivers precision-engineered, factory-built modular construction solutions — from bathroom pods to full building systems — built for speed, quality, and scalability.",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "NG",
+  },
+  sameAs: [],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -84,9 +100,13 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
       className={`${inter.variable} ${manrope.variable} ${dmSans.variable} scroll-smooth`}
     >
-      <Analytics />
       <body className="antialiased font-sans bg-white text-gray-900">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
+        <Analytics />
       </body>
     </html>
   );

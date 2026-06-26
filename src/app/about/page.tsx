@@ -8,8 +8,7 @@ import ImageBanner from "@/components/about/ImageBanner";
 import CoreValues from "@/components/about/CoreValues";
 
 export const metadata: Metadata = {
-  title:
-    "About Us | GAP-World — Architecture & Construction — Architecture & Construction",
+  title: "About Us | GAP-World — Architecture & Construction",
   description:
     "Learn about GAP-World — Architecture & Construction — our mission, vision, and core values. We deliver exceptional architecture and construction projects built on integrity, quality, and innovation.",
   openGraph: {
